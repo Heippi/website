@@ -1,0 +1,438 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CARTA DE NAVEGACIÓN CSS
+	
+	Para navegación buscar con con ctrl + F
+	
+||SECCIONES||
+
+1) CONTENIDO1 		
+2) CONTENIDO-OCULTO
+
+	Indice completo al final del css
+
+*/
+
+/*===========================================
+-----------------------------------CONTENIDO1
+============================================*/
+
+.seccion01
+{
+	clear:both;
+	padding: 3% 2% 2%;
+}
+
+.seccion01 section
+{
+	display: inline-block;
+	background-color: #f2f2f2;
+	padding:10px;
+	vertical-align: middle;	
+}
+
+.seccion01 iframe {
+	width: 100%;
+	height: 290px;
+	border: 0;
+}
+
+.seccion01 .video, .seccion01 .formulario {
+	width: 48%;
+	min-height: 340px;
+	vertical-align: middle;
+}
+
+.seccion01 .video{
+	margin-right: -0.3em;
+	padding: 2% 1% 2%;
+	border-radius: 10px 0 0 10px;
+}
+
+.seccion01 .formulario {
+	border-radius: 0 10px 10px 0;
+}
+
+.seccion01 video
+{
+	height: auto;
+	width: 100%;
+}
+
+/*-----------------------------FORMULARIO*/
+
+.seccion01 label {
+	width: 20%;
+	display: inline-block;
+	padding: 3px;
+	color: gray;
+	font-size: small;
+	text-align: left;
+}
+
+/*------------INFO DEL FORM*/
+
+.seccion01 h3 {
+	background-color: #FF6600;
+	margin: -25px auto 0.3em;
+	width: auto;
+	padding: 0.5em 0.5em;
+	display: inline-block;
+	color: white;
+	font-weight: normal;
+	font-size: 1.4em;
+	border-radius: 0.1em;
+}
+
+.seccion01 p {
+	color: #FF6600;
+	padding: 0.3em 0.2em 0.8em;
+}
+
+/*------------INPUTS*/
+
+input[type="email"], input[type="text"] {
+	width: 60%;
+	line-height: 1.8em;
+	color: rgba(255,102,0,1.00);
+	margin-bottom: 0.5em;
+	outline-color: rgba(255,102,0,1.00);
+	border: #ccc solid 1px;
+	box-shadow: inset 2px 2px 10px #f2f2f2;
+	padding: 0.5em;
+	height: 2.5em;
+	font-size: 0.83em;
+}
+
+.seccion01 ul {
+	background-color: white;
+	border-radius: 0.5em;
+}
+
+.seccion01 .formulario textarea {
+	width: 81%;	
+	outline-color: rgba(255,102,0,1.00);
+	border: #ccc solid 1px;
+	box-shadow: inset 2px 2px 10px #f2f2f2;
+	padding: 0.5em;
+	height: 50px;
+	color: #ff6600;
+	font-size: 0.83em;
+}
+
+/*INPUT TYPE RADIO*/
+
+.seccion01 .suscribir input[type="radio"]{
+}
+
+.seccion01 .suscribir label{
+	text-align: right;
+	width: auto;
+	height: 21px;
+	cursor: pointer;
+}
+
+
+.seccion01 .suscribir label:hover, .seccion01 .suscribir label:focus, .seccion01 .suscribir label:active{
+	background-position: 0px -0px ;
+}
+
+.seccion01 .suscribir 
+{
+	width: 58%;
+	display:inline-block;
+	margin-left: 8%;	
+	margin-right: 0.3em;
+	float:left;
+	text-align:right;
+}
+
+.seccion01 li:last-child
+{
+	display:inline-block;
+	width: 20%;
+	padding-right: 3%;
+	margin-bottom: 10px;
+}
+
+.seccion01 .suscribir p
+{
+	font-size: 0.7em;
+	color: #ccc;
+	text-align: left;
+	display: inline-block;
+	margin-bottom: -1em;
+}
+
+.seccion01 .suscribir p:last-child {
+	float: right;
+	margin-top: -24px;
+}
+
+/*--BOTON SUBMIT--*/
+
+.seccion01 li:last-child .submit
+{
+	padding: 10px 10px;
+	float:right;
+	border: 3px solid white;
+	border-radius: 0.5em;
+	background-image: url(../img/bkg-btn-01.png);
+	background-size: 100% 100%;
+	background-color: orangered;
+	color: white;
+	font-size: 1em;
+	box-shadow: 0 0 5px #ccc;
+	cursor: pointer;
+	box-shadow: 0px 1px 0px #ddd, 0px 3px 0px #ddd, 0px 5px 5px #bbb;
+	transition: all ease 0.5s;
+	margin-top: 0.2em;
+}
+
+/*--ICONO BTN SUBMIT--*/
+
+.seccion01 li:last-child .submit a
+{
+	padding: 0px 21px 0px 0px;
+	display: inline-block;
+	color: white;
+	background-image: url(../img/sprite-2.png);
+	background-size: 20px auto;
+	background-position: 100% 2px;
+	background-repeat: no-repeat;
+	border: none;
+	transition: all ease 0.5s;
+}
+
+.seccion01 li:last-child .submit:focus
+{
+	background-image: none;	
+}
+
+.seccion01 li:last-child .submit:hover
+{
+	box-shadow: 0px 1px 0px #ddd, 0px 5px 0px #ddd, 0px 8px 7px #bbb;
+	background-size: 100% 200%;
+	transition: all ease 0.5s;
+}
+
+.seccion01 li:last-child .submit:active
+{
+	box-shadow: 0px 0px 2px #ccc, inset 3px 3px 5px FireBrick, inset 1px 1px 3px darkred;
+	background-image: none;
+	outline: none;
+}
+
+.seccion01 li:last-child .submit:hover a
+{
+	animation:boton-enviar 1s infinite;
+}
+
+@keyframes boton-enviar
+{
+	0% {background-position: 100% 2px;}
+	50% {background-position: 96% 2px;}
+	100% {background-position: 100% 2px;}
+}
+
+/*===========================================
+----------------------------CONTENIDO-OCULTO
+============================================*/
+
+.seccion-oculta
+{
+	background-color: #f2f2f2;
+	text-align: center;
+}
+
+/*------------BOTON DE MOSTRAR/OCULTAR INFO*/
+
+.seccion-oculta section span
+{
+	display:block;
+	background-color: white;
+}
+
+.seccion-oculta span>strong
+{
+	color:#FF6600;
+	font-size: 1.2em;
+	padding-right: 0.5em; 
+}
+
+.seccion-oculta section span label
+{
+	position: relative;
+	padding: 10px;
+	border-radius: 0.5em;
+	box-shadow: 0px 1px 0px #ddd, 0px 2px 0px #ddd, 0px 5px 5px #bbb,				 
+				inset 0 0 0 #ffcc66, inset 0 0 0 #ff9933,
+				inset 0 0 0 #cc3300, inset 0 0 0 #ff3300;;
+	border: 3px solid white;
+	display: inline-block;
+	margin: 10px 1px 15px 5px;
+	background-color: #FF6600;
+	background-image: url(../img/bkg-btn-01.png);
+	background-size: 100% 100%;
+	color: white;
+	cursor: pointer; 
+	text-decoration: none;
+	transition: all ease 0.4s;
+}
+
+.seccion-oculta section span label:hover
+{
+	box-shadow: 0px 1px 0px #ddd, 0px 5px 0px #ddd, 0px 8px 8px #aaa, 
+				inset 1px 1px 3px #ffcc66, inset 3px 3px 10px #ff9933,
+				inset -1px -1px 5px #ff3300;
+	/*background-size: 100% 200%;*/
+	background-color: #ff7900;
+}
+
+.seccion-oculta section span label:active
+{
+	box-shadow: 0px 0px 2px #ccc, inset 3px 3px 5px FireBrick, inset 1px 1px 3px darkred;
+	background-image: none;
+	background-color: /*#ff66009*/ OrangeRed;
+	outline: none;
+}
+
+.seccion-oculta section>input[type=checkbox] {
+	position: absolute;
+	left: -9999px;
+}
+
+.seccion-oculta input[type=checkbox]:checked ~ .mas-info {
+	opacity: 1;	
+	position: relative;
+	border: none;
+	transition: all ease-out 1s;
+	display:block;
+}
+
+/*----------------------------INFO OCULTA*/
+
+.seccion-oculta .mas-info
+{
+	opacity: 0;
+	position: absolute;
+	display: none;
+}
+
+.seccion-oculta div
+{
+	width: 95%;
+	background-color: #f2f2f2;
+	margin: 0 auto;	
+}
+
+/*------------DIVISORES OCULTOS*/
+
+.seccion-oculta .mas-info .divisor
+{
+	background-color: #F0F0F2;
+	color: /*transparent*/;
+	background-image:url(../img/divisor-buttom.png);
+	background-size: 100% 100%;
+	width: 105.5%;
+	display: block;
+	height: 22px;
+	margin-left: -2.6%;
+}
+
+.seccion-oculta .mas-info .divisor:first-child
+{
+	-webkit-transform: scaleY(-1);
+	transform: scaleY(-1);
+}
+
+/*-----------INFOGRAFIA HEIPPI*/
+
+.seccion-oculta section div>figure
+{
+	background-color: tomato;
+	background-image:url(../img/bkg-blur-0.jpg);
+	background-size: cover;	
+}
+
+.seccion-oculta section div>figure img
+{
+	width: 98%;
+	height: auto;	
+}
+
+/*----------------------------ARTICULOS*/
+
+.seccion-oculta article span
+{
+	display:inline;
+	color: #FF6600;
+}
+
+/*----IMAGEN ARTICULOS*/
+
+.seccion-oculta article figure img
+{	
+	float:left;	
+	width: 30%;
+}
+
+/*----PARRAFOS ARTICULOS*/
+
+.seccion-oculta article
+{
+	background-color: white;
+	padding: 1em;
+}
+
+.seccion-oculta section article div
+{
+	text-align: justify;
+	padding: 1em;
+	max-width: 700px;
+	float: right;
+	color: #666;
+	width: 65%;
+	background-color: white;
+}
+
+.seccion-oculta article p
+{
+	padding-top: 0.5em;	
+}
+
+/*----LINEA DIV ARTICULO*/
+
+.seccion-oculta article::after
+{
+	clear:both;
+	color: transparent;
+	content: '_';
+	display: block;
+	height: 10px;
+	background-color: white;
+	border-bottom: dashed tomato 1px;
+	padding: 5px;
+}
+
+/*--------- INDICE DE NAVEGACIÓN DEL CSS --------
+Este menu ayuda a la navegación por el css. Se deberá eliminar en la versión de producción.
+
+2) CONTENIDO1
+	> FORMULARIO
+		-INFO DEL FORM ;
+		-INPUTS ; INPUT TYPE RADIO;
+		-BOTON SUBMIT; 
+		-ICONO BTN SUBMIT
+
+3) CONTENIDO-OCULTO
+	> BOTON DE MOSTRAR/OCULTAR INFO	
+	> INFO OCULTA
+		-DIVISORES OCULTOS ; 
+		-INFOGRAFIA HEIPPI
+	> ARTICULOS
+		-IMAGEN ARTICULOS ; 
+		-PARRAFOS ARTICULOS ; 
+		-LINEA DIV ARTICULO
+*/

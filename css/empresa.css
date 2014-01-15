@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CARTA DE NAVEGACIÓN CSS
+	
+	Para navegación buscar con con ctrl + F
+	
+||SECCIONES||
+
+1) CONTENIDO
+
+	Indice completo al final del css
+
+*/
+
+/*===========================================
+------------------------------------CONTENIDO
+============================================*/
+
+.seccion-oculta
+{
+	background-color: #f2f2f2;
+	text-align: center;
+}
+
+
+/*----------------------------CONTENIDO EMPRESA*/
+
+.seccion-oculta .mas-info
+{
+	opacity: 1;	
+	position: relative;
+	display:block;
+}
+
+.seccion-oculta div
+{
+	width: 95%;
+	background-color: #f2f2f2;
+	margin: 0 auto;	
+}
+
+/*------------DIVISORES OCULTOS*/
+
+.seccion-oculta .mas-info .divisor
+{
+	background-color: #F0F0F2;
+	color: /*transparent*/;
+	background-image:url(../img/divisor-buttom.png);
+	background-size: 100% 100%;
+	width: 105.5%;
+	display: block;
+	height: 22px;
+	margin-left: -2.6%;
+}
+
+.seccion-oculta .mas-info .divisor:first-child
+{
+	-webkit-transform: scaleY(-1);
+	transform: scaleY(-1);
+}
+
+/*-----------INFOGRAFIA HEIPPI*/
+
+.seccion-oculta section div>figure
+{
+	background-color: tomato;
+	background-image:url(../img/bkg-blur-0.jpg);
+	background-size: cover;	
+}
+
+.seccion-oculta section div>figure img
+{
+	width: 98%;
+	height: auto;	
+}
+
+/*----------------------------ARTICULOS*/
+
+.seccion-oculta article span
+{
+	display:inline;
+	color: #FF6600;
+}
+
+/*----IMAGEN ARTICULOS*/
+
+.seccion-oculta article figure img
+{	
+	float:left;	
+	width: 30%;
+}
+
+/*----PARRAFOS ARTICULOS*/
+
+.seccion-oculta article
+{
+	background-color: white;
+	padding: 1em;
+}
+
+.seccion-oculta section article div
+{
+	text-align: justify;
+	padding: 1em;
+	max-width: 700px;
+	float: right;
+	color: #666;
+	width: 65%;
+	background-color: white;
+}
+
+.seccion-oculta article p
+{
+	padding-top: 0.5em;	
+}
+
+/*----LINEA DIV ARTICULO*/
+
+.seccion-oculta article::after
+{
+	clear:both;
+	color: transparent;
+	content: '_';
+	display: block;
+	height: 10px;
+	background-color: white;
+	border-bottom: dashed tomato 1px;
+	padding: 5px;
+}
+
+/*--------- INDICE DE NAVEGACIÓN DEL CSS --------
+Este menu ayuda a la navegación por el css. Se deberá eliminar en la versión de producción.
+
+2) CONTENIDO1
+	> FORMULARIO
+		-INFO DEL FORM ;
+		-INPUTS ; INPUT TYPE RADIO;
+		-BOTON SUBMIT; 
+		-ICONO BTN SUBMIT
+
+3) CONTENIDO
+	> CONTENIDO EMPRESA
+		-DIVISORES OCULTOS ; 
+		-INFOGRAFIA HEIPPI
+	> ARTICULOS
+		-IMAGEN ARTICULOS ; 
+		-PARRAFOS ARTICULOS ; 
+		-LINEA DIV ARTICULO
+*/
