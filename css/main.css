@@ -75,13 +75,38 @@ li
 	list-style-type:none;
 }
 
+textarea {
+    resize: vertical;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+	overflow:auto;
+    *zoom: 1;
+}
+
+/*Before y after visibles*/
+
+.algo:before,
+.algo:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.algo:after {
+    clear: both;
+}
+
 /*===========================================
 ---------------------------------------Header
 ============================================*/
 
 header
 {	
-	/*border: solid green; Borrar*/
 	border-top: solid transparent 1px;
 	min-height: 320px;
 	/*Este estilo es provisional hasta que este listo el slider*/

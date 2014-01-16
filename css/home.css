@@ -34,13 +34,13 @@
 
 .seccion01 iframe {
 	width: 100%;
-	height: 290px;
+	height: 255px;
 	border: 0;
 }
 
 .seccion01 .video, .seccion01 .formulario {
 	width: 48%;
-	min-height: 340px;
+	min-height: 300px;
 	vertical-align: middle;
 }
 
