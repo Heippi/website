@@ -30,7 +30,8 @@ nav>ul>li:nth-child(2) /*Ancho Menu Navbar*/
 
 nav>ul>li>ul>li, nav>ul>li>ul>li:first-child  /*Distribuye mejor los 3 enlaces del NAVBAR*/
 {
-	width: 24%;
+	width: 23%;
+	padding: 0 0.25em;
 }
 
 /*----FOOTER----*/
@@ -104,6 +105,11 @@ margin: 2% auto 5%;
 
 * {transition: all ease 0.5s}
 
+nav ul li ul 
+{
+	padding-top: 0;
+}
+
 nav>ul>li:nth-child(2) /*Ancho Menu Navbar*/
 {
 	width: 70%;
@@ -112,7 +118,16 @@ nav>ul>li:nth-child(2) /*Ancho Menu Navbar*/
 nav>ul>li>ul>li /*Espacio entre listas*/
 {
 	padding: 0;
+	width: 22%;
 }
+
+nav .menu-bar li a
+{
+	font-size: 0.8em;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+}
+
 
 /*----FOOTER----*/
 
@@ -188,8 +203,7 @@ footer figure
 header
 {
 	border-top: solid transparent 1px;
-	min-height: 320px;
-	background-image: url(../img/slider2.jpg);
+	min-height: 260px;
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: 150% auto;
@@ -203,10 +217,18 @@ nav .menu-bar
 	background-color: #ff6600;
 }
 
+nav ul li ul 
+{
+	padding: 0.1em;
+}
+
 nav>ul>li>ul>li  /*Distribuye mejor los 3 enlaces del NAVBAR*/
 {
 	width: 48%;
-	padding: 0.25em 0;
+	padding: 0.05em 0;
+	border: solid 1px orange;
+	border-radius: 0.2em;
+	margin-bottom: 0.1em;
 }
 
 nav>ul>li>ul>li:first-child
@@ -218,13 +240,6 @@ nav>ul>li>ul>li:first-child a
 {
 	min-width: 0;
 	text-align: center;
-}
-
-nav>ul>li>ul>li
-{
-	border: solid 1px orange;
-	border-radius: 0.2em;
-	margin-bottom: 0.2em;
 }
 
 nav>ul>li>ul>li:last-child
@@ -250,6 +265,13 @@ nav figure
 nav .menu-bar a.a-inicio 
 {
 	display: none;
+}
+
+/*----SLIDER----*/
+
+.slider figcaption 
+{
+	margin-top:100px;
 }
 
 /*----FOOTER----*/
@@ -325,6 +347,11 @@ footer figure
 --------- EQUIPO
 =================== */
 
+section
+{
+	padding-top: 1em;
+}
+
 section.equipo figure
 {
 	width: 35%;
@@ -396,10 +423,10 @@ nav>ul>li:nth-child(2) /*MENU*/
 
 nav .menu-bar
 {
-	margin-top: 5%;
+	margin-top: 3%;
 	border-radius: 0.5em;
 	background-color: rgba(255,102,0, .0);
-	margin-bottom: -5%;
+	margin-bottom: -3%;
 }
 
 nav>ul>li>ul>li  /*Distribuye mejor los 3 enlaces del NAVBAR*/
@@ -447,7 +474,7 @@ nav>ul>li>ul>li:nth-child(3) a
 
 nav>ul>li>ul>li:nth-child(4) a 
 {
-	background-position-y: -57px;
+	background-position-y: -59px;
 	background-position-x: 2%;
 }
 
@@ -537,11 +564,6 @@ footer figure
 --------- EQUIPO
 =================== */
 
-section
-{
-	padding-top: 1em;
-}
-
 section.equipo figure
 {
 	width: 50%;
@@ -577,6 +599,11 @@ header
 {
 	background-position: 94% 0%;
 	background-size: 249% auto;
+}
+
+nav .menu-bar 
+{
+	margin-bottom: -6%;
 }
 
 nav .menu-bar li a, nav .menu-bar li:nth-child(3) a

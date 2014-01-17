@@ -7,11 +7,42 @@
 	
 ||SECCIONES||
 
-1) CONTENIDO
+1) MENU HEADER
+2) CONTENIDO
 
 	Indice completo al final del css
 
 */
+
+/*===========================================
+-------------------------MENU HEADER
+============================================*/
+
+
+@media screen and (max-width: 680px){
+
+header 
+{
+	border-top: solid transparent 1px;
+	min-height: 100px !important;
+	background-image: url(../img/bkg-header-0.jpg);
+	background-position: 50% 0% !important;
+	background-repeat: no-repeat;
+	background-size: 150% auto;
+}
+
+.slider figcaption 
+{
+	margin-top: 5px !important;
+}
+
+nav>ul>li>ul>li:nth-child(1) 
+{
+	background-image: none;
+	background-color: #ff8800;
+}
+
+}
 
 /*===========================================
 ------------------------------------CONTENIDO
