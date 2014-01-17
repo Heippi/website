@@ -347,6 +347,11 @@ footer figure
 --------- EQUIPO
 =================== */
 
+section
+{
+	padding-top: 1em;
+}
+
 section.equipo figure
 {
 	width: 35%;
@@ -558,11 +563,6 @@ footer figure
 /* ================
 --------- EQUIPO
 =================== */
-
-section
-{
-	padding-top: 1em;
-}
 
 section.equipo figure
 {
