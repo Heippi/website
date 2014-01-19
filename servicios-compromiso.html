@@ -26,6 +26,30 @@
     
     <script src="js/analyticstracking.js"></script>
     <script src="js/modernizr-latest.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+    
+        <style>
+	.segundo-nav .link:nth-child(5)
+	{
+		background-color:#ff9900;
+	}
+	.segundo-nav .link:nth-child(5) a
+	{
+		box-shadow: #FF4400 0px 3px 0px
+	}
+	.segundo-nav .link:nth-child(6) a
+	{
+		color: LightGrey;
+	}
+	.segundo-nav .link.a5 a:hover, .segundo-nav .link:nth-child(6) a:hover,
+	.segundo-nav .link.a5 a:focus, .segundo-nav .link:nth-child(6) a:focus,
+	.segundo-nav .link.a5 a:active, .segundo-nav .link:nth-child(6) a:active
+	{
+		color: LightGrey !important;
+		-webkit-animation: none;
+		animation: none;
+	}	
+	</style>
 
 </head>
 
@@ -98,11 +122,43 @@
 	    </ul>
 	<h2>Impuestos</h2>
 	<p>Los valores señalados no incluyen IVA. Nuestra oferta no contempla la aplicación de impuestos presentes o futuros. </p>
-	<ul>    
+	</ul>    
 	</section>   
       
 </div>
 
+<!--==================================================
+										MENU SERVICIOS
+======================================================-->
+
+<section class="segundo-nav">
+	
+    <h2> Servicios: Navegación Interna </h2>
+    <p> 
+Los invitamos a seguir leyendo nuestra propuesta de servicios, utilizando este submenú.       
+    </p>
+    <ul>
+        <li class="link a0">
+            <a href="servicios-costos.html" title="volver">&#9668;</a>
+        </li>
+        <li class="link a1">
+            <a href="servicios-propuesta-comercial.html">Propuesta Comercial</a>
+        </li>
+        <li class="link a2">
+            <a href="servicios-beneficios.html">Ventajas y Beneficios</a>
+        </li>
+        <li class="link a3">
+            <a href="servicios-costos.html">Costos del servicio</a>
+        </li>
+        <li class="link a4">
+            <a href="servicios-compromiso.html">Nuestro Compromiso</a>
+        </li>
+        <li class="link a5">
+            <a title="seguir">&#9658;</a>
+        </li>
+    </ul>
+	
+</section>
 <!--==================================================
 												FOOTER
 ======================================================-->

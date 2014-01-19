@@ -196,6 +196,28 @@ footer figure
 	padding: 0.1em;
 }
 
+/* ================
+--------- SERVICIOS
+=================== */
+
+/*MENU INTERNO*/
+
+.segundo-nav ul
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.segundo-nav .link.a0, .segundo-nav .link.a5
+{
+	width:auto;
+}
+
+.segundo-nav .link
+{
+	width: 23%;
+}
+
 }
 
 @media screen and (max-width: 680px) {
@@ -308,7 +330,7 @@ footer figure
 /*----FORMULARIO----*/
 
 .seccion01 {
-	padding: 1em 0;
+	padding: 1em 0;	
 }
 
 .seccion01 .video, .seccion01 .formulario /*Controlando el video y el formulario al tiempo*/
@@ -317,6 +339,7 @@ footer figure
 	min-height: 0;
 	border-radius: 0;
 	padding: 1em;
+	background-color: #ddd;
 }
 
 .seccion01 .video, .seccion01 iframe 
@@ -333,6 +356,11 @@ footer figure
 
 /*----CONTENIDO OCULTO----*/
 
+.seccion-oculta  .mas-info-button
+{
+	padding-top: 0;
+}
+
 .seccion-oculta article figure img /*IMAGEN QUE PREGUNTA*/
 {
 	width: 50%;
@@ -341,6 +369,28 @@ footer figure
 .seccion-oculta section article div /*TEXTO DEL ARTICULO*/
 { 
 	width: 80%;
+}
+
+/* ================
+--------- SERVICIOS
+=================== */
+
+/*MENU INTERNO*/
+
+.segundo-nav .link
+{	
+	max-width: 130px;
+	width: 25%;
+}
+
+.link.a0, .link.a5 
+{
+	display:none; 
+}
+
+.segundo-nav a
+{
+	padding: 0.1em 0.3em;
 }
 
 /* ================
@@ -497,7 +547,7 @@ nav>ul>li>ul>li:first-child
 
 .slider figcaption 
 {
-	margin-top: 0;
+	margin-top: 1em;
 	background-color: rgba(255, 102, 0, 1);
 	font-size: 1em;
 }
@@ -561,6 +611,26 @@ footer figure
 }
 
 /* ================
+--------- SERVICIOS
+=================== */
+
+/*MENU INTERNO*/
+
+
+.segundo-nav .link 
+{
+	max-width: 130px;
+	width: 45%;
+	margin: 0.3em 0;
+	border-radius: 0.3em;
+}
+
+.segundo-nav .link a
+{
+	border-radius: 0.3em;
+}
+
+/* ================
 --------- EQUIPO
 =================== */
 
@@ -594,7 +664,7 @@ section.equipo figure img
 
 @media screen and (max-width: 320px)
 {
-	
+
 header
 {
 	background-position: 94% 0%;
@@ -657,6 +727,8 @@ footer ul:nth-child(2)
 --------- HOME-PAGE
 =================== */
 
+
+
 .seccion01 .video, .seccion01 
 {
 	width: 100%;
@@ -668,13 +740,18 @@ footer ul:nth-child(2)
 	height: 200px;
 }
 
+.seccion01 .video
+{
+	padding-bottom:80%;
+}
+
 /*---FORMULARIO--*/
 
 .form-opinion {
 margin-top: 1em;
 }
 
-.seccion01 .video, .seccion01 .formulario 
+.seccion01 .formulario 
 {
 	width: 100%;
 	padding: 0.5em;
@@ -739,6 +816,8 @@ input[type="email"], input[type="text"], .seccion01 .formulario textarea
 	padding-right: 0;
 	display: block;
 }
+
+
 
 /* ================
 --------- EQUIPO

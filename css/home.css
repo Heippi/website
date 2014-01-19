@@ -416,6 +416,15 @@ input[type="email"], input[type="text"] {
 	padding: 5px;
 }
 
+@media screen and (max-width: 480px){
+
+.seccion-oculta section div>figure img
+{
+	-webkit-content: url(../img/rwd/heippi-infografia1-480px.png);
+	-moz-content: url(../img/rwd/heippi-infografia1-480px.png);
+	content: url(../img/rwd/heippi-infografia1-480px.png);
+}
+
 /*--------- INDICE DE NAVEGACIÓN DEL CSS --------
 Este menu ayuda a la navegación por el css. Se deberá eliminar en la versión de producción.
 

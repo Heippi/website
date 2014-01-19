@@ -9,17 +9,17 @@
 
 1) MENU HEADER
 2) CONTENIDO
+3) SEGUNDO NAVBAR
 
 	Indice completo al final del css
 
 */
 
+@media screen and (max-width: 680px){
+	
 /*===========================================
 -------------------------MENU HEADER
 ============================================*/
-
-
-@media screen and (max-width: 680px){
 
 header 
 {
@@ -108,6 +108,118 @@ section li
 
 section li li {
 	font-size: 0.8em;
+}
+
+/*===========================================
+------------------------SEGUNDO NAVBAR
+============================================*/
+
+.segundo-nav 
+{
+	max-width: 100%;
+	border-radius: 0.2em;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.segundo-nav h2
+{
+	border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.segundo-nav p 
+{
+	text-align: center;
+	max-width: 700px;
+	margin: 0 auto;
+	font-size: 0.8em;
+	color: #aaa;
+}
+
+.segundo-nav ul {
+	padding: 0.2em 0.5em;
+	text-align: center;
+}
+
+.segundo-nav .link
+{
+	display: inline-block;
+	width: 22%;
+	padding: 0;
+	margin: 0;
+	position: inherit;
+	vertical-align: middle;
+	transition: all ease 0.5s;	
+	background-color: #ff7700;
+	margin-left: -0.17em;
+	margin-right: -0.17em;
+}
+
+.link.a0, .link.a5 /*Listas Btns Volver y Seguir*/
+{
+	width: 5%;
+	font-size:1.5em;	
+	transition: all ease 0.5s;
+	background-color: transparent;
+}
+
+.link.a0 a, .link.a5 a /*Enlaces BTNs Volver y Seguir*/
+{	
+	text-decoration:none;
+	color: #ff6600;
+	background-image: none;
+	box-shadow: none;
+}
+
+.segundo-nav a 
+{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 0.4em 3% 0.5em;
+	text-decoration:none;
+	/*background-image:url(../img/bkg-btn-01.png);
+	background-size: 100% 100%;*/
+	box-shadow: #FF4400 0px 3px 0px,
+				inset #FF4400 -1px -1px 0px,
+				inset #FF5500 0px -5px 5px,
+				inset #FF8800 1px 1px 0px,
+				inset #FF9900 0px 5px 5px
+				/*#bbb 0 3px 5px*/;
+}
+
+.segundo-nav a:hover
+{
+	background-color: orange;
+	color: white;
+	box-shadow: #FF5500 0px 1px 0px,
+				inset #FF4400 -1px -1px 0px,
+				inset #FF8800 1px 1px 0px/*,
+				#ddd 0 2px 5px*/;
+}
+
+.segundo-nav .link.a0 a:hover, .segundo-nav .link.a5 a:hover
+{
+	background-color: transparent;
+	color: gold;
+	-webkit-animation: BalanceoX 1s infinite;
+	animation: BalanceoX 0.5s infinite;	
+	box-shadow: none;
+}
+
+@media screen and (max-width: 480px)
+{
+
+section figure, section img /*Cambio de la imagen infografica*/
+{
+	content: url(../img/rwd/heippi-infografia-480px.png);
 }
 
 /*--------- INDICE DE NAVEGACIÓN DEL CSS --------

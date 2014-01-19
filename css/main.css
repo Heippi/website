@@ -680,6 +680,24 @@ footer div ul:last-child li:active a
 	transition: all 0.2s ease;
 }
 
+/*===========================================
+--------------------------------ANIMACIONES
+============================================*/
+
+@-webkit-keyframes BalanceoX
+{	
+	0% {-webkit-transform: translateX(0.25em);}
+	50% {-webkit-transform: translateX(-0.25em);}
+	100% {-webkit-transform: translateX(0.25em);}
+}
+
+@keyframes BalanceoX
+{	
+	0% {-webkit-transform: translateX(0.25em);}
+	50% {-webkit-transform: translateX(-0.25em);}
+	100% {-webkit-transform: translateX(0.25em);}
+}
+
 /*--------- INDICE DE NAVEGACIÓN DEL CSS --------
 Este menu ayuda a la navegación por el css. Se deberá eliminar en la versión de producción.
 
@@ -700,5 +718,7 @@ Este menu ayuda a la navegación por el css. Se deberá eliminar en la versión 
 	- ENLACES FOOTER
 	- SOCIAL FOOTER
 	- 2BOTON DE WEBAPP
+
+3) ANIMACIONES
 
 */
