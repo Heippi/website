@@ -160,6 +160,13 @@ nav>ul>li>ul>li:nth-child(1)
 	padding: 5px;
 }
 
+@media screen and (max-width: 480px){
+
+.seccion-oculta section div>figure img
+{
+	content: url(../img/rwd/heippi-infografia1-480px.png);
+}
+
 /*--------- INDICE DE NAVEGACIÓN DEL CSS --------
 Este menu ayuda a la navegación por el css. Se deberá eliminar en la versión de producción.
 
