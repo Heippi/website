@@ -52,7 +52,7 @@ section
 {
 	max-width: 700px;
 	margin: 0 auto 0.5em;
-	padding: 3em 0 2em;
+	padding: 1em 0 2em;
 }
 
 section h1
@@ -118,8 +118,8 @@ section li li {
 {
 	max-width: 100%;
 	border-radius: 0.2em;
-	margin-top: 0;
-	padding-top: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .segundo-nav h2
