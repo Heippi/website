@@ -1,4 +1,5 @@
 (function($) {
+  alertify.set('notifier','position', 'top-right');
   "use strict"; // Start of use strict
 
   // Smooth scrolling using jQuery easing
@@ -54,5 +55,86 @@
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
   });
+
+  $("#btn_innotech").click(function(){
+    var email = $("#email_innotech").val()
+    if(email == "" || email == null){
+      alertify.error("Por favor Ingrese el email")
+      return
+    }
+    var data = {
+      recipient_email: email
+    }
+    $.ajax({
+      url: "https://api-metrics.heippi.com/api/v2/send-mail/innotech_info",
+      contentType: "application/json",
+      method: "POST",
+      data: data,
+      success: function(result){
+        alertify.success("Se envio correctamente el email")
+      },
+      error: function(xhr){
+        alertify.error("Ocurrio un error, por favor intente nuevamente")
+      }
+    });
+  })
+
+  $("#btn_metrics").click(function(){
+    var email = $("#email_metrics").val()
+    if(email == "" || email == null){
+      alertify.error("Por favor Ingrese el email")
+      return
+    }
+    var data = {
+      recipient_email: email
+    }
+    $.ajax({
+      url: "https://api-metrics.heippi.com/api/v2/send-mail/innotech_info",
+      contentType: "application/json",
+      method: "POST",
+      data: data,
+      success: function(result){
+        alertify.success("Se envio correctamente el email")
+      },
+      error: function(xhr){
+        alertify.error("Ocurrio un error, por favor intente nuevamente")
+      }
+    });
+  })
+
+  $("#btn_contact").click(function(){
+    var email = $("#email_contact").val()
+    var name = $("#name_contact").val()
+    var comment = $("#comment_contact").val()
+    if(email == "" || email == null){
+      alertify.error("Por favor Ingrese el email")
+      return
+    }
+    if(name == "" || name == null){
+      alertify.error("Por favor Ingrese el nombre")
+      return
+    }
+    if(comment == "" || comment == null){
+      alertify.error("Por favor Ingrese el comentario")
+      return
+    }
+    var data = {
+      contact_email: email,
+      contact_name: name,
+      contact_text: comment
+    }
+    $.ajax({
+      url: "https://api-metrics.heippi.com/api/v2/send-mail/contact",
+      contentType: "application/json",
+      method: "POST",
+      data: data,
+      success: function(result){
+        alertify.success("Se envio correctamente el formulario de contacto")
+      },
+      error: function(xhr){
+        alertify.error("Ocurrio un error, por favor intente nuevamente")
+      }
+    });
+  })
 
 })(jQuery); // End of use strict

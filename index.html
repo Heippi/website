@@ -19,6 +19,9 @@
 
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Plugin CSS Alertify -->
+  <link href="vendor/alertify/css/alertify.min.css" rel="stylesheet">
   
   <!-- Plugin Workshop -->
   <link type="text/css" rel="stylesheet" href="css/workshop/css/hover-box.css">
@@ -94,9 +97,9 @@
               <p class="mb-4">Creamos paquetes de servicios para innovar sobre procesos empresariales de nuestros aliados, adopción de tecnologías en las empresas y fabricación de tecnología utilizando últimas tendencias de desarrollo de software y hardware.</p>
               <form class="form-inline">
                 <div class="form-group mx-sm-2 mb-3">
-                  <input type="email" class="form-control" placeholder="Email*">
+                  <input type="email" class="form-control" id="email_innotech" placeholder="Email*">
                 </div>
-                <a class="btn btn-primary mb-3 js-scroll-trigger" href="#services">Saber más</a>
+                <a class="btn btn-primary mb-3 js-scroll-trigger" id="btn_innotech">Saber más</a>
               </form>
             </div>
           </div>
@@ -119,9 +122,9 @@
               <p class="mb-4">Obtén métricas en vivo y reportes estadísticos períodicos acerca del comportamiento de consumidores en tiendas y lugares físicos, a través de tus dispositivos.</p>
               <form class="form-inline">
                 <div class="form-group mx-sm-2 mb-3">
-                  <input type="email" class="form-control" placeholder="Email*">
+                  <input type="email" class="form-control" id="email_metrics" placeholder="Email*">
                 </div>
-                <a class="btn btn-primary mb-3 js-scroll-trigger" href="#services">Saber más</a>
+                <a class="btn btn-primary mb-3 js-scroll-trigger" id="btn_metrics">Saber más</a>
               </form>
             </div>
           </div>
@@ -341,16 +344,16 @@
               <div class="input-group-prepend">
                 <span class="input-group-text" id="basic-addon1">@</span>
               </div>
-              <input type="email" class="form-control" placeholder="Tu email*" aria-label="Email" >
+              <input type="email" class="form-control" id="email_contact" placeholder="Tu email*" aria-label="Email" >
             </div>
             <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Nombre*" aria-label="Nombre" >
+              <input type="text" class="form-control" id="name_contact" placeholder="Nombre*" aria-label="Nombre" >
             </div>
             <div class="input-group">
-              <textarea class="form-control" rows="5" placeholder="Cuentanos lo que necesitas" aria-label="With textarea"></textarea>
+              <textarea class="form-control" rows="5" id="comment_contact" placeholder="Cuentanos lo que necesitas" aria-label="With textarea"></textarea>
             </div>
             <div class="input-group" style="margin-top: 5px;">
-                <button type="button" class="btn btn-primary btn-block">Enviar</button>
+                <button type="button" class="btn btn-primary btn-block" id="btn_contact">Enviar</button>
             </div>
           </div>
         </div>
@@ -394,6 +397,9 @@
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Plugin Alertify JavaScript -->
+  <script src="vendor/alertify/alertify.min.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.js"></script>
