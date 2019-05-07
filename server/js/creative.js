@@ -74,12 +74,12 @@
       data: JSON.stringify(data),
       success: function(result){
         $('#btn_innotech').loader('hide');
-        alertify.success("Se envio correctamente el email")
+        alertify.success("La info fue enviada correctamente a tu email")
         $("#email_innotech").val("")
       },
       error: function(xhr){
         $('#btn_innotech').loader('hide');
-        alertify.error("Ocurrio un error, por favor intente nuevamente")
+        alertify.error("Ocurrió un error, por favor intenta nuevamente")
       }
     });
   })
@@ -103,12 +103,12 @@
       data: JSON.stringify(data),
       success: function(result){
         $('#btn_metrics').loader('hide');
-        alertify.success("Se envio correctamente el email")
+        alertify.success("La info fue enviada correctamente a tu email")
         $("#email_metrics").val("")
       },
       error: function(xhr){
         $('#btn_metrics').loader('hide');
-        alertify.error("Ocurrio un error, por favor intente nuevamente")
+        alertify.error("Ocurrió un error, por favor intenta nuevamente")
       }
     });
   })
@@ -120,17 +120,17 @@
     var comment = $("#comment_contact").val()
     if(email == "" || email == null){
       $('.form-contact').loader('hide');
-      alertify.error("Por favor Ingrese el email")
+      alertify.error("Por favor Ingresa tu email")
       return
     }
     if(name == "" || name == null){
       $('.form-contact').loader('hide');
-      alertify.error("Por favor Ingrese el nombre")
+      alertify.error("Por favor Ingresa tu nombre")
       return
     }
     if(comment == "" || comment == null){
       $('.form-contact').loader('hide');
-      alertify.error("Por favor Ingrese el comentario")
+      alertify.error("Por favor Ingresa tu comentario")
       return
     }
     var data = {
@@ -145,14 +145,14 @@
       data: JSON.stringify(data),
       success: function(result){
         $('.form-contact').loader('hide');
-        alertify.success("Se envio correctamente el formulario de contacto")
+        alertify.success("Se envió correctamente el formulario de contacto")
         $("#email_contact").val("")
         $("#name_contact").val("")
         $("#comment_contact").val("")
       },
       error: function(xhr){
         $('.form-contact').loader('hide');
-        alertify.error("Ocurrio un error, por favor intente nuevamente")
+        alertify.error("Ocurrió un error, por favor intenta nuevamente")
       }
     });
   })
