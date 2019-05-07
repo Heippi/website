@@ -71,7 +71,7 @@
       url: "https://api-metrics.heippi.com/api/v2/send-mail/innotech_info",
       contentType: "application/json",
       method: "POST",
-      data: data,
+      data: JSON.stringify(data),
       success: function(result){
         $('#btn_innotech').loader('hide');
         alertify.success("Se envio correctamente el email")
@@ -99,7 +99,7 @@
       url: "https://api-metrics.heippi.com/api/v2/send-mail/innotech_info",
       contentType: "application/json",
       method: "POST",
-      data: data,
+      data: JSON.stringify(data),
       success: function(result){
         $('#btn_metrics').loader('hide');
         alertify.success("Se envio correctamente el email")
@@ -140,7 +140,7 @@
       url: "https://api-metrics.heippi.com/api/v2/send-mail/contact",
       contentType: "application/json",
       method: "POST",
-      data: data,
+      data: JSON.stringify(data),
       success: function(result){
         $('.form-contact').loader('hide');
         alertify.success("Se envio correctamente el formulario de contacto")
