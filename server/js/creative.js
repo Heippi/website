@@ -75,6 +75,7 @@
       success: function(result){
         $('#btn_innotech').loader('hide');
         alertify.success("Se envio correctamente el email")
+        $("#email_innotech").val("")
       },
       error: function(xhr){
         $('#btn_innotech').loader('hide');
@@ -96,13 +97,14 @@
     }
 
     $.ajax({
-      url: "https://api-metrics.heippi.com/api/v2/send-mail/innotech_info",
+      url: "https://api-metrics.heippi.com/api/v2/send-mail/metrics_info",
       contentType: "application/json",
       method: "POST",
       data: JSON.stringify(data),
       success: function(result){
         $('#btn_metrics').loader('hide');
         alertify.success("Se envio correctamente el email")
+        $("#email_metrics").val("")
       },
       error: function(xhr){
         $('#btn_metrics').loader('hide');
@@ -144,6 +146,9 @@
       success: function(result){
         $('.form-contact').loader('hide');
         alertify.success("Se envio correctamente el formulario de contacto")
+        $("#email_contact").val("")
+        $("#name_contact").val("")
+        $("#comment_contact").val("")
       },
       error: function(xhr){
         $('.form-contact').loader('hide');
