@@ -1,2 +1,2 @@
 # Heippi Website
-Código fuente de sitio web oficial de Heippi.
+Código fuente del sitio web oficial de heippi.com
