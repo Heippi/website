@@ -22,6 +22,10 @@
 
   <!-- Plugin CSS Alertify -->
   <link href="vendor/alertify/css/alertify.min.css" rel="stylesheet">
+
+  <!-- Plugin CSS Loader -->
+  <link href="vendor/monkeymonk-jquery.loader.js-8a4c6a5/jquery.loader.min.css" rel="stylesheet">
+  <img src="vendor/monkeymonk-jquery.loader.js-8a4c6a5/loader.gif" alt="" style="display: none">
   
   <!-- Plugin Workshop -->
   <link type="text/css" rel="stylesheet" href="css/workshop/css/hover-box.css">
@@ -32,7 +36,6 @@
 </head>
 
 <body id="page-top">
-
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
@@ -99,7 +102,7 @@
                 <div class="form-group mx-sm-2 mb-3">
                   <input type="email" class="form-control" id="email_innotech" placeholder="Email*">
                 </div>
-                <a class="btn btn-primary mb-3 js-scroll-trigger" id="btn_innotech">Saber más</a>
+                <button type="button" class="btn btn-primary mb-3 js-scroll-trigger" id="btn_innotech">Saber más</button>
               </form>
             </div>
           </div>
@@ -124,7 +127,7 @@
                 <div class="form-group mx-sm-2 mb-3">
                   <input type="email" class="form-control" id="email_metrics" placeholder="Email*">
                 </div>
-                <a class="btn btn-primary mb-3 js-scroll-trigger" id="btn_metrics">Saber más</a>
+                <button type="button" class="btn btn-primary mb-3 js-scroll-trigger" id="btn_metrics">Saber más</button>
               </form>
             </div>
           </div>
@@ -338,8 +341,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-7">
-          <div class="row ">
+        <div class="col-md-5">
+          <div class="row form-contact">
             <div class="input-group mb-3">
               <div class="input-group-prepend">
                 <span class="input-group-text" id="basic-addon1">@</span>
@@ -356,6 +359,9 @@
                 <button type="button" class="btn btn-primary btn-block" id="btn_contact">Enviar</button>
             </div>
           </div>
+        </div>
+        <div class="col-md-2">
+
         </div>
       </div>
     </div>
@@ -400,6 +406,9 @@
 
   <!-- Plugin Alertify JavaScript -->
   <script src="vendor/alertify/alertify.min.js"></script>
+
+  <!-- Plugin Loader JavaScript -->
+  <script src="vendor/monkeymonk-jquery.loader.js-8a4c6a5/jquery.loader.min.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.js"></script>

@@ -57,9 +57,11 @@
   });
 
   $("#btn_innotech").click(function(){
+    $('#btn_innotech').loader('show');
     var email = $("#email_innotech").val()
     if(email == "" || email == null){
       alertify.error("Por favor Ingrese el email")
+      $('#btn_innotech').loader('hide');
       return
     }
     var data = {
@@ -71,50 +73,61 @@
       method: "POST",
       data: data,
       success: function(result){
+        $('#btn_innotech').loader('hide');
         alertify.success("Se envio correctamente el email")
       },
       error: function(xhr){
+        $('#btn_innotech').loader('hide');
         alertify.error("Ocurrio un error, por favor intente nuevamente")
       }
     });
   })
 
   $("#btn_metrics").click(function(){
+    $('#btn_metrics').loader('show');
     var email = $("#email_metrics").val()
     if(email == "" || email == null){
       alertify.error("Por favor Ingrese el email")
+      $("#btn_metrics").loader("hide")
       return
     }
     var data = {
       recipient_email: email
     }
+
     $.ajax({
       url: "https://api-metrics.heippi.com/api/v2/send-mail/innotech_info",
       contentType: "application/json",
       method: "POST",
       data: data,
       success: function(result){
+        $('#btn_metrics').loader('hide');
         alertify.success("Se envio correctamente el email")
       },
       error: function(xhr){
+        $('#btn_metrics').loader('hide');
         alertify.error("Ocurrio un error, por favor intente nuevamente")
       }
     });
   })
 
   $("#btn_contact").click(function(){
+    $('.form-contact').loader('show');
     var email = $("#email_contact").val()
     var name = $("#name_contact").val()
     var comment = $("#comment_contact").val()
     if(email == "" || email == null){
+      $('.form-contact').loader('hide');
       alertify.error("Por favor Ingrese el email")
       return
     }
     if(name == "" || name == null){
+      $('.form-contact').loader('hide');
       alertify.error("Por favor Ingrese el nombre")
       return
     }
     if(comment == "" || comment == null){
+      $('.form-contact').loader('hide');
       alertify.error("Por favor Ingrese el comentario")
       return
     }
@@ -129,9 +142,11 @@
       method: "POST",
       data: data,
       success: function(result){
+        $('.form-contact').loader('hide');
         alertify.success("Se envio correctamente el formulario de contacto")
       },
       error: function(xhr){
+        $('.form-contact').loader('hide');
         alertify.error("Ocurrio un error, por favor intente nuevamente")
       }
     });
