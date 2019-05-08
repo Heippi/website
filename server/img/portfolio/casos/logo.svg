@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="212px" height="40px" viewBox="0 0 212 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 14 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#9DF7E9" offset="0%"></stop>
+            <stop stop-color="#79E3D8" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#CCEC47" offset="0%"></stop>
+            <stop stop-color="#C0DD49" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-5.7%" y="-3.5%" width="111.4%" height="106.9%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-5.7%" y="-3.4%" width="111.4%" height="106.8%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.0" transform="translate(-82.000000, -119.000000)">
+            <g id="Group-14-Copy" transform="translate(80.000000, 117.000000)">
+                <text id="Medicheap" font-family="STHeitiSC-Medium, Heiti SC" font-size="29.5128687" font-weight="bold" letter-spacing="-0.2623366" fill="#005856">
+                    <tspan x="48.163362" y="32.4009894">Medicheap</tspan>
+                </text>
+                <path d="M27.9485978,2.21176071 L27.9485978,2.21176071 C32.791938,2.21176071 36.718241,6.13806373 36.718241,10.981404 L36.718241,21.4603481 C36.718241,26.3036883 32.791938,30.2299913 27.9485978,30.2299913 L27.9485978,30.2299913 C23.1052575,30.2299913 19.1789545,26.3036883 19.1789545,21.4603481 L19.1789545,10.981404 C19.1789545,6.13806373 23.1052575,2.21176071 27.9485978,2.21176071 Z" id="Rectangle-7-Copy-22" fill="url(#linearGradient-1)" opacity="0.75" filter="url(#filter-2)" transform="translate(27.948598, 16.220876) rotate(-315.000000) translate(-27.948598, -16.220876) "></path>
+                <path d="M16.6699919,12.7439412 L16.6699919,12.7439412 C21.1031406,12.7439412 24.6969176,16.3377183 24.6969176,20.770867 L24.6969176,34.2027783 C24.6969176,38.635927 21.1031406,42.229704 16.6699919,42.229704 L16.6699919,42.229704 C12.2368432,42.229704 8.64306618,38.635927 8.64306618,34.2027783 L8.64306618,20.770867 C8.64306618,16.3377183 12.2368432,12.7439412 16.6699919,12.7439412 Z" id="Rectangle-7-Copy-23" fill="url(#linearGradient-3)" opacity="0.650000036" filter="url(#filter-4)" transform="translate(16.669992, 27.486823) rotate(-315.000000) translate(-16.669992, -27.486823) "></path>
+                <path d="M28.1333703,27.7825255 C24.7328536,30.0037936 20.1289713,29.6213546 17.1428252,26.6352085 C14.1593889,23.6517722 13.7749363,19.0535345 15.9894674,15.6539241 C19.389984,13.4326559 23.9938663,13.8150949 26.9800125,16.801241 C29.9634487,19.7846773 30.3479013,24.382915 28.1333703,27.7825255 Z" id="Combined-Shape" fill="#81BC35" filter="url(#filter-5)"></path>
+                <path d="M27.671,1.97706945 L27.671,1.97706945 C32.5143403,1.97706945 36.4406433,5.90337247 36.4406433,10.7467127 L36.4406433,22.0507349 C36.4406433,26.8940751 32.5143403,30.8203782 27.671,30.8203782 L27.671,30.8203782 C22.8276598,30.8203782 18.9013568,26.8940751 18.9013568,22.0507349 L18.9013568,10.7467127 C18.9013568,5.90337247 22.8276598,1.97706945 27.671,1.97706945 Z" id="Rectangle-7-Copy-24" stroke="#005856" stroke-width="2.00396026" filter="url(#filter-6)" transform="translate(27.671000, 16.398724) rotate(-315.000000) translate(-27.671000, -16.398724) "></path>
+                <path d="M16.6273978,12.6991803 L16.6273978,12.6991803 C21.470738,12.6991803 25.397041,16.6254833 25.397041,21.4688236 L25.397041,33.4196334 C25.397041,38.2629737 21.470738,42.1892767 16.6273978,42.1892767 L16.6273978,42.1892767 C11.7840575,42.1892767 7.85775453,38.2629737 7.85775453,33.4196334 L7.85775453,21.4688236 C7.85775453,16.6254833 11.7840575,12.6991803 16.6273978,12.6991803 Z" id="Rectangle-7-Copy-25" stroke="#005856" stroke-width="2.00396026" filter="url(#filter-7)" transform="translate(16.627398, 27.444228) rotate(-315.000000) translate(-16.627398, -27.444228) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
